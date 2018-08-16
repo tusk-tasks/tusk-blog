@@ -1,0 +1,13 @@
+{
+  "name": "Tusk Blog",
+  "short_name": "Tusk Blog",
+  "description": "Outsource your tasks to university students.",
+  "start_url": "/?homescreen=1",
+  "background_color": "#009aab",
+  "theme_color": "#EB928E",
+  "icons": [{
+    "src": "{{ site.baseurl }}/assets/apple-touch-icon-180x180.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }]
+}

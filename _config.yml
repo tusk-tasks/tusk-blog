@@ -1,0 +1,57 @@
+# SITE CONFIGURATION
+baseurl: "/"
+url: "https://blog.tusk.com"
+permalink: pretty
+title: Tusk Blog
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  avatar: assets/img/logo.svg
+  favicon: assets/favicon-16.png
+  description: "A community platform that connects people looking for help, with students looking for work." # used by search engines
+
+  # Footer text
+  footer_text: >
+   Made with ❤️ in London. Copyright &copy; Tusk Tasks Limited
+
+  # Icons
+  linkedin: "https://www.linkedin.com/company/tusktasks/"
+  twitter: "tusktasks"
+  facebook: "https://www.facebook.com/tusktasks/?ref=br_rs"
+  instagram: "https://www.instagram.com/tusktasks/"
+
+  # Scripts / Features 
+  portfolio: true
+  search: false
+  tags: false
+  
+  
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_email: "Email"
+  str_next_post: "Next"
+  str_previous_post: "Previous"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Post navigation
+  post_navigation: true
+
+
+# PORTFOLIO
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag, octopress-autoprefixer, jekyll-sitemap]
+exclude: ["Gemfile", "Gemfile.lock", "tusk.gemspec", "*.gem", "LICENSE", "README.md"]

@@ -1,0 +1,102 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <!-- JQuery (used for bootstrap and jekyll search) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Lazy load (used for optimised loading) -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
+
+    <!-- Main JS (navbar.js and katex_init.js)-->
+    <script defer=true src="{{ site.baseurl }}/assets/js/main.min.js"></script>
+    
+    <!-- Allow videos to play inline on iOS -->
+    <script async src="{{ site.baseurl }}/assets/js/iphone-inline-video.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"/>
+    
+    <!--Favicon and apple touch icons-->
+    <link rel="manifest" href="{{ site.baseurl }}/assets/manifest.json" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
+    <link rel="icon" sizes="32x32" href="{{ site.baseurl }}/assets/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/assets/favicons/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/assets/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="{{ site.baseurl }}/assets/favicon-167" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon-180.png" />
+    <link rel="icon" sizes="192x192" href="{{ site.baseurl }}/assets/favicon-192.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/atom+xml" title="{{ site.theme_settings.title }}" href="{{ site.url }}/{{ site.baseurl }}//feed.xml" />
+    
+    <!-- Manifest -->
+    <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
+    
+    <!-- Fonts -->
+    <link rel="preload" href="/assets/fonts/neuzeit-grotesk-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/fonts/neuzeit-grotesk-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="preload" href="/assets/fonts/neuzeit-grotesk-black.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/0ddd0cd9bd.css" />
+    
+    <!-- Gmail verification -->
+    <meta name="google-site-verification" content="60UrfPe_KgVOq_yO45vB4-CyYrbWgP2xH7uu3nrn9Ug" />
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115362241-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115362241-1');
+    </script>
+
+    
+    <!-- seo tags -->
+    {% seo %}
+    <!-- Manual seo tags -->
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% if page.thumbnail %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.thumbnail }}" />
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/img/placeholder-2.jpg" />
+    {% endif %}
+    <meta property="article:published_time" content="{{ page.date }}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:site" content="@edstennett" />
+    <meta name="twitter:creator" content="@edstennett">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"></noscript>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#F2F7F7",
+                        "text": "#535E5E"
+                    },
+                    "button": {
+                        "background": "#009AAB",
+                        "text": "#ffffff"
+                    }
+                },
+                "showLink": false,
+                "position": "bottom-right"
+            })
+        });
+    </script>
+</head>

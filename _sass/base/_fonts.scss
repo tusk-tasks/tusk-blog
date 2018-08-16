@@ -1,0 +1,55 @@
+/**
+ * Load web fonts.
+ */
+
+/*
+ * Neuzeit Grotesk Regular.
+ */
+
+/* stylelint-disable value-list-comma-newline-after */
+
+@font-face {
+  font-display: fallback;  /* Don't wait forever on Safari */
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src:
+          url('/assets/fonts/neuzeit-grotesk-regular.woff2') format('woff2'),  /* Preloaded */
+          url('/assets/fonts/neuzeit-grotesk-regular.woff') format('woff'),  /* IE, UC */
+          url('/assets/fonts/neuzeit-grotesk-regular.ttf') format('truetype'),  /* Android < 4.4 */
+          url('/assets/fonts/neuzeit-grotesk-regular.eot') format('embedded-opentype');  /* IE < 9 */
+}
+
+/* stylelint-enable value-list-comma-newline-after */
+
+/*
+ * Neuzeit Grotesk Bold.
+ */
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src:
+          url('/assets/fonts/neuzeit-grotesk-bold.woff2') format('woff2'),
+          url('/assets/fonts/neuzeit-grotesk-bold.woff') format('woff'),
+          url('/assets/fonts/neuzeit-grotesk-bold.ttf') format('truetype'),
+          url('/assets/fonts/neuzeit-grotesk-bold.eot') format('embedded-opentype');
+}
+
+/*
+ * Neuzeit Grotesk Black.
+ */
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Neuzeit Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  src:
+          url('/assets/fonts/neuzeit-grotesk-black.woff2') format('woff2'),
+          url('/assets/fonts/neuzeit-grotesk-black.woff') format('woff'),
+          url('/assets/fonts/neuzeit-grotesk-black.ttf') format('truetype'),
+          url('/assets/fonts/neuzeit-grotesk-black.eot') format('embedded-opentype');
+}
