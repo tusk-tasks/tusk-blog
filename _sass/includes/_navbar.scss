@@ -4,13 +4,118 @@
     background: $white;
     display: inline-block;
     width: 100%;
+    height: 70vh;
+    background-image: url($baseurl +  "/assets/img/tusk-blog-hero.jpg");
+    background-position: 50% 25%;
+    background-size: cover;
 
     a {
         color: $body-primary;
     }
 
     .avatar {
-        width: 8em;
+        width: 6em;
+        float: left;
+        padding: 20px 10px;
+        object-fit: cover;
+    }
+
+    .site-title {
+        float: left;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 2.5;
+            float: right;
+            text-align: right;
+            font-size: 0.8em;
+            font-weight: 700;
+            padding-top: 10px;
+        }
+        li {
+            display: inline;
+            float: left;
+            margin-right: 2em;
+        }
+        a {
+            color: $white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            &:hover {
+                color: $background-secondary;
+                transition: color 0.5s ease-in-out;
+            }
+            &#pull {
+                p {
+                    margin-top: 13px;
+                    float: right;
+                    color: $fivehundred;
+                    font-weight: 700;
+                }
+
+            }
+
+        }
+    }
+}
+
+.site-header__caption {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  height: 60%;
+}
+
+.site-header__caption-heading {
+  color: $white;
+  font-weight: 900;
+  font-family: 'Neuzeit Grotesk';
+  font-size: 48px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+// To clear things when we float the element inisde nav and ul 
+.clear {
+    *zoom: 1;
+
+    &:after {
+        clear: both;
+    }
+
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+}
+
+.site-header-alt {
+    padding: $padding-x-x-small $padding-x-small;
+    padding-top: $padding-x-x-small;
+    background: $white;
+    display: inline-block;
+    width: 100%;
+    height: 96px; 
+
+    a {
+        color: $body-primary;
+    }
+
+    .avatar {
+        width: 6em;
         float: left;
         padding: 20px 10px;
         object-fit: cover;
@@ -51,10 +156,11 @@
             margin-right: 2em;
         }
         a {
-            color: $body-primary;
-            font-family: "Playfair Display", serif;
+            color: $fivehundred;
+            text-transform: uppercase;
+            letter-spacing: 1px;
             &:hover {
-                color: $body-secondary;
+                color: $background-secondary;
                 transition: color 0.5s ease-in-out;
             }
             &#pull {
@@ -69,76 +175,4 @@
 
         }
     }
-}
-
-// To clear things when we float the element inisde nav and ul 
-.clear {
-    *zoom: 1;
-
-    &:after {
-        clear: both;
-    }
-
-    &:before,
-    &:after {
-        content: " ";
-        display: table;
-    }
-}
-
-/* ---- Responsive ---- */
-
-@media (min-width: $break) {
-    a#pull {
-        display: none;
-    }
-}
-
-@media screen and (max-width: $break) {
-    .site-header {
-        img.avatar {
-            margin-top: -7px
-        }
-        .site-title {
-            margin-top: 7px;
-        }
-    }
-
-    nav {
-        height: auto;
-
-        ul {
-            width: 100%;
-            display: none;
-            height: auto;
-        }
-
-        li {
-            width: 100%;
-            position: relative;
-        }
-
-        a {
-            text-align: left;
-            width: 100%;
-
-            &#pull {
-                display: block;
-                width: 100%;
-                position: relative;
-
-                &:after {
-                    content: "";
-                    display: inline-block;
-                    position: absolute;
-                    right: 15px;
-                    top: 10px;
-                }
-            }
-        }
-    }
-}
-
-.current {
-    border-bottom: 1px solid $fivehundred;
 }

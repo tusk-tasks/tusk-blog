@@ -16,6 +16,16 @@
     }
 }
 
+%padding-large {
+    padding: $padding-small $padding-x-large;
+    @media (max-width: 1000px) {
+        padding: $padding-small * 1.5 $padding-x-large / 1.6;
+    }
+    @media (max-width: 576px) {
+        padding: $padding-small;
+    }
+}
+
 .link-heading {
     color: $fivehundred;
     transition: all 0.3s ease-in-out;

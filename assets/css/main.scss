@@ -1,4 +1,6 @@
 ---
 ---
 
-@import "seenit";
+$baseurl: '{{ site.baseurl }}';
+
+@import "main";

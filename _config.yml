@@ -8,13 +8,14 @@ title: Tusk Blog
 theme_settings:
   # Meta
   avatar: assets/img/logo.svg
+  avatar-alt: assets/img/logo-primary.svg
   favicon: assets/favicon-16.png
   description: "A community platform that connects people looking for help, with students looking for work." # used by search engines
 
   # Footer text
   footer_text: >
-   Made with ❤️ in London. Copyright &copy; Tusk Tasks Limited
-
+   Made with ❤️ in London • Copyright &copy; Tusk Tasks Limited
+   
   # Icons
   linkedin: "https://www.linkedin.com/company/tusktasks/"
   twitter: "tusktasks"
