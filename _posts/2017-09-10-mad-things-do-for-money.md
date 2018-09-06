@@ -21,8 +21,8 @@ Because of this, students do some pretty mad things to make a bit of money durin
         <div class="col-12">
             <div class="post-img-alt-container">
         	    <img data-src="{{site.baseurl}}/assets/img/team-photos/mikey.jpg" class="lazy post-img-alt" alt="mikey" />
-                <h4 align="center">THE IDEA MAN • Mikey</h4>
             </div>
+            <h4 align="center">THE IDEA MAN • Mikey</h4>
         </div>
     </div>
 </div>
@@ -36,8 +36,8 @@ It was anonymous but allowed you to save those you grew close to on your lists o
         <div class="col-12">
             <div class="post-img-alt-container">
         	    <img data-src="{{site.baseurl}}/assets/img/team-photos/luke.jpg" class="lazy post-img-alt" alt="mikey" />
-                <h4 align="center">THE MIDDLE MAN • Luke</h4>
             </div>
+            <h4 align="center">THE MIDDLE MAN • Luke</h4>
         </div>
     </div>
 </div>
@@ -51,8 +51,8 @@ Despite the interrupted sleeps, the stringent food rationing and the headache-in
         <div class="col-12">
             <div class="post-img-alt-container">
         	    <img data-src="{{site.baseurl}}/assets/img/team-photos/james.jpg" class="lazy post-img-alt" alt="mikey" />
-                <h4 align="center">THE MARKETING MAN • James</h4>
             </div>
+            <h4 align="center">THE MARKETING MAN • James</h4>
         </div>
     </div>
 </div>
@@ -66,8 +66,8 @@ Fortunately, there was no tripadvisor account so the reviews didn’t spread and
         <div class="col-12">
             <div class="post-img-alt-container">
         	    <img data-src="{{site.baseurl}}/assets/img/team-photos/stefan.jpg" class="lazy post-img-alt" alt="mikey" />
-                <h4 align="center">THE MAN • Stefan</h4>
             </div>
+            <h4 align="center">THE MAN • Stefan</h4>
         </div>
     </div>
 </div>
@@ -81,8 +81,8 @@ Though this seemed like a good deal, when the shrimps arrived in the post all th
         <div class="col-12">
             <div class="post-img-alt-container">
         	    <img data-src="{{site.baseurl}}/assets/img/team-photos/joe.jpg" class="lazy post-img-alt" alt="mikey" />
-                <h4 align="center">THE CODER MAN • Joe</h4>
             </div>
+            <h4 align="center">THE CODER MAN • Joe</h4>
         </div>
     </div>
 </div>
@@ -96,8 +96,8 @@ I once got a 40kg bag of jumbled lego sorted it into its sets and sold it on. Af
         <div class="col-12">
             <div class="post-img-alt-container">
         	    <img data-src="{{site.baseurl}}/assets/img/team-photos/saam.jpg" class="lazy post-img-alt" alt="mikey" />
-                <h4 align="center">THE MONEY MAN • Saam</h4>
             </div>
+            <h4 align="center">THE MONEY MAN • Saam</h4>
         </div>
     </div>
 </div>

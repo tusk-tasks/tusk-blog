@@ -17,9 +17,9 @@
 }
 
 %padding-large {
-    padding: $padding-small $padding-x-large;
+    padding: $padding-x-x-small $padding-x-large;
     @media (max-width: 1000px) {
-        padding: $padding-small * 1.5 $padding-x-large / 1.6;
+        padding: $padding-x-x-small * 1.5 $padding-x-large / 1.6;
     }
     @media (max-width: 576px) {
         padding: $padding-small;
