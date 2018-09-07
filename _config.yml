@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://blog.tusk.com"
+url: "https://blog.tusktasks.io"
 permalink: pretty
 title: Tusk Blog
 
