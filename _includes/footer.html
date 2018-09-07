@@ -2,6 +2,13 @@
 
 
 <footer>
+    <div class="footer-link-container">
+        <ul class="footer-link-container-list">
+            <li class="footer-link-container-list-item"><a href="https://tusktasks.io/terms/privacy" rel="noreferrer noopener" target="_blank">Privacy policy</a></li>
+            <li class="footer-link-container-list-item"><a href="https://tusktasks.io/terms/website" rel="noreferrer noopener" target="_blank">Terms</a></li>
+            <li class="footer-link-container-list-item"><a href="https://tusktasks.io/contact-us" rel="noreferrer noopener" target="_blank">Contact</a></li>
+        </ul>
+    </div>
     <p class="footer-text-caption">{{ site.theme_settings.footer_text }} {% assign thisyear = site.time | date: "%Y" %} {% if site.first_published %} {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %} {% if diff contains '-' %}{{ site.first_published }},{% endif %} {% endif %} {{ thisyear }} {% if site.owner %}{{ site.owner }}{% else %}{% endif %}</p>
 </footer>
 {% endif %}

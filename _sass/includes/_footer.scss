@@ -34,3 +34,22 @@
     display: block;
     margin-bottom: 0.4em;
 }
+
+.footer-link-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer-link-container-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 0em;
+}
+
+.footer-link-container-list-item {
+    padding: 1em;
+    font-size: 0.8em;
+}
