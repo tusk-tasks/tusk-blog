@@ -53,10 +53,11 @@ header {
 }
 
 .excerpt {
-    font-size: 0.7em;
+    font-size: 1rem;
     padding-top: 1em;
     color: $body-primary !important;
     font-weight: 300;
+    line-height: 1.2;
 }
 
 .blog-post {
