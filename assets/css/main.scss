@@ -1,6 +1,7 @@
 ---
 ---
 
+$url: '{{ site.url }}';
 $baseurl: '{{ site.baseurl }}';
 
 @import "main";
