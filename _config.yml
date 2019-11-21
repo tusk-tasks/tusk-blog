@@ -3,7 +3,6 @@ baseurl: "/"
 url: "https://blog.tusktasks.io"
 permalink: pretty
 title: Tusk Blog
-exclude: [vendor]
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -56,4 +55,4 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate, jekyll-seo-tag, octopress-autoprefixer, jekyll-sitemap]
-exclude: ["Gemfile", "Gemfile.lock", "tusk.gemspec", "*.gem", "LICENSE", "README.md"]
+exclude: ["Gemfile", "Gemfile.lock", "vendor", "tusk.gemspec", "*.gem", "LICENSE", "README.md"]
