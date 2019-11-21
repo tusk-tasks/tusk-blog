@@ -14,10 +14,10 @@
   font-style: normal;
   font-weight: 400;
   src:
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-regular.woff2') format('woff2'),  /* Preloaded */
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-regular.woff') format('woff'),  /* IE, UC */
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-regular.ttf') format('truetype'),  /* Android < 4.4 */
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-regular.eot') format('embedded-opentype');  /* IE < 9 */
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-regular.woff2') format('woff2'),  /* Preloaded */
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-regular.woff') format('woff'),  /* IE, UC */
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-regular.ttf') format('truetype'),  /* Android < 4.4 */
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-regular.eot') format('embedded-opentype');  /* IE < 9 */
 }
 
 /* stylelint-enable value-list-comma-newline-after */
@@ -32,10 +32,10 @@
   font-style: normal;
   font-weight: 700;
   src:
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-bold.woff2') format('woff2'),
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-bold.woff') format('woff'),
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-bold.ttf') format('truetype'),
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-bold.eot') format('embedded-opentype');
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-bold.woff2') format('woff2'),
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-bold.woff') format('woff'),
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-bold.ttf') format('truetype'),
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-bold.eot') format('embedded-opentype');
 }
 
 /*
@@ -48,8 +48,8 @@
   font-style: normal;
   font-weight: 900;
   src:
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-black.woff2') format('woff2'),
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-black.woff') format('woff'),
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-black.ttf') format('truetype'),
-          url($baseurl +  '/assets/fonts/neuzeit-grotesk-black.eot') format('embedded-opentype');
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-black.woff2') format('woff2'),
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-black.woff') format('woff'),
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-black.ttf') format('truetype'),
+          url($url + $baseurl +  '/assets/fonts/neuzeit-grotesk-black.eot') format('embedded-opentype');
 }

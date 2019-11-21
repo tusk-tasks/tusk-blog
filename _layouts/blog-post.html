@@ -11,18 +11,18 @@ layout: fullscreen
                     {{ page.date | date: "%B %-d, %Y" }}   |   {{ page.author }}
                 </p>
                 <div class="blog-post__author">
-                    <img data-src="{{ site.baseurl }}/{{ page.author-img }}" alt="page.author" class="blog-post__author-img lazy" />
+                    <img data-src="{{ site.url }}{{ site.baseurl }}/{{ page.author-img }}" alt="page.author" class="blog-post__author-img lazy" />
                 </div>
             </div>
         </div>
-        <img data-src="{{ site.baseurl }}/{{ page.thumbnail }}" alt="{{ page.title}} hero" class="blog-post__hero-img lazy" />
+        <img data-src="{{ site.url }}{{ site.baseurl }}/{{ page.thumbnail }}" alt="{{ page.title}} hero" class="blog-post__hero-img lazy" />
     </div>
 </div>
 <article>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p><a href="{{ site.baseurl }}/">Blog</a> / {{ page.title }}</p>
+                <p><a href="{{ site.url }}{{ site.baseurl }}/">Blog</a> / {{ page.title }}</p>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@ layout: fullscreen
         <div class="row">
             <div class="col-12">
                 {% if page.feature-img %}
-                <img data-src="{{ site.baseurl }}/{{ page.feature-img }}" alt="{{ page.name }} photo" class="img-fluid blog-feature-img lazy"/>
+                <img data-src="{{ site.url }}{{ site.baseurl }}/{{ page.feature-img }}" alt="{{ page.name }} photo" class="img-fluid blog-feature-img lazy"/>
                 {% endif %}
                 {{ content }}
             </div>

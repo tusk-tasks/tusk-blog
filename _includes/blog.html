@@ -5,10 +5,10 @@
             {% for post in site.posts %}
             
             <div class="col-6 blog-post moreBox" style="display: none;">
-            <a href="{{ post.url | prepend: site.baseurl }}">
+            <a href="{{ site.url }}{{ site.baseurl }}/{{ post.url | prepend: site.baseurl }}">
                 <div class="blog-post-inner">
                     <div class="blog-img">
-                        <img src="{{site.baseurl}}/{{ post.thumbnail }}" alt="{{ post.title}} image"/>
+                        <img src="{{ site.url }}{{ site.baseurl }}/{{ post.thumbnail }}" alt="{{ post.title}} image"/>
                     </div>
                 <h3 class="post-link">{{ post.title }}</h3>
                 <p class="meta">{{ post.date | date: "%B %-d, %Y" }}   |   {{ post.author }}</p>
