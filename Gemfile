@@ -3,3 +3,4 @@ gemspec
 gem 'jekyll-sitemap'
 gem 'jekyll-autoprefixer'
 gem 'execjs'
+gem 'therubyracer'
