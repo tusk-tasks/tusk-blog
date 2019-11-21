@@ -3,6 +3,7 @@ baseurl: "/"
 url: "https://blog.tusktasks.io"
 permalink: pretty
 title: Tusk Blog
+exclude: [vendor]
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
