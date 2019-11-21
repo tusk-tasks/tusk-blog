@@ -79,6 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
+  execjs
   jekyll-autoprefixer
   jekyll-sitemap
   rake (~> 10.0)
