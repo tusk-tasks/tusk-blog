@@ -9,7 +9,7 @@ thumbnail: "/assets/img/20180714-DSC00105.jpg"
 permalink: "/blog/:year/:month/:day/:title/"
 
 ---
-## **Not sure how much to pay for your task? Here’s a little help.**
+### **Not sure how much to pay for your task? Here’s a little help.**
 
 On Tusk you can complete almost any task and set any price you like. But, if you need a bit of guidance, here are some of our more common tasks and the recommended pay (per hour) for each:
 
