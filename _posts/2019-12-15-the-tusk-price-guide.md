@@ -45,4 +45,4 @@ Tech Help **£12**
 
 Our prices are based on the National Minimum Wage (£8.21 per hour), the London Living Wage (£10.55 per hour), the rate for the rest of the UK (£9.00 per hour) and also take into account the Tusk Service Fee of 15%.
 
-We hope this helps and please don’t worry too much - once you have listed your task, the students will make you offers, so the fair price of the task will quickly become apparent.
+We hope this helps and please don’t worry too much - once you have listed your task, you will receive offers from the students, so the fair price of the task will quickly become apparent.
