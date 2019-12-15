@@ -11,37 +11,37 @@ permalink: "/blog/:year/:month/:day/:title/"
 ---
 **Not sure how much to pay for your task? Here’s a little help.**
 
-On Tusk you can complete almost any task and set any price you like. But, if you need a bit of guidance, here are some of our more common tasks and the recommended price for each.
+On Tusk you can complete almost any task and set any price you like. But, if you need a bit of guidance, here are some of our more common tasks and the recommended pay (per hour) for each:
 
-Flyering                              £12
+Flyering **£12**
 
-Event Staff                          £12
+Event Staff **£12**
 
-Tutoring                              £17
+Tutoring **£17**
 
-Furniture Assembly             £14
+Furniture Assembly **£14**
 
-Office Admin                      £12
+Office Admin **£12**
 
-Dog Walking/Sitting           £12
+Dog Walking/Sitting **£12**
 
-Gardening                          £14
+Gardening **£14**
 
-Cleaning                             £12
+Cleaning **£12**
 
-Handyman                          £14
+Handyman **£14**
 
-Delivery/Removal               £14
+Delivery/Removal **£14**
 
-Moving/Heavy Lifting         £14
+Moving/Heavy Lifting **£14**
 
-Research                             £12
+Research **£12**
 
-Design/Photography          £17
+Design/Photography **£17**
 
-Translations                        £15
+Translations **£15**
 
-Tech Help                           £12
+Tech Help **£12**
 
 Our prices are based on the National Minimum Wage (£8.21 per hour), the London Living Wage (£10.55 per hour), the rate for the rest of the UK (£9.00 per hour) and also take into account the Tusk Service Fee of 15%.
 
