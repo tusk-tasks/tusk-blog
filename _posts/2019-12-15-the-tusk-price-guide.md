@@ -3,9 +3,9 @@ layout: blog-post
 title: The Tusk Price Guide
 tags: []
 author: Michael Hodnett
-author-img: "/assets/img/team photo.png"
+author-img: "/assets/img/team-photos/mikey.jpg"
 date: 2019-12-15 00:00:00 +0000
-thumbnail: "/assets/img/20180714-DSC00105.jpg"
+thumbnail: "/assets/img/uwork-winchester-shoot-08198 (1).jpg"
 permalink: "/blog/:year/:month/:day/:title/"
 
 ---
