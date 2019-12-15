@@ -11,10 +11,7 @@ permalink: "/blog/:year/:month/:day/:title/"
 ---
 **Not sure how much to pay for your task? Here’s a little help.**
 
-  
 On Tusk you can complete almost any task and set any price you like. But, if you need a bit of guidance, here are some of our more common tasks and the recommended price for each.
-
-Task                                    Pay (per hour)
 
 Flyering                              £12
 
@@ -46,8 +43,6 @@ Translations                        £15
 
 Tech Help                           £12
 
-  
 Our prices are based on the National Minimum Wage (£8.21 per hour), the London Living Wage (£10.55 per hour), the rate for the rest of the UK (£9.00 per hour) and also take into account the Tusk Service Fee of 15%.
 
-  
 We hope this helps and please don’t worry too much - once you have listed your task, the students will make you offers, so the fair price of the task will quickly become apparent.
