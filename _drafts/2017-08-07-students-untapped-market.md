@@ -5,11 +5,11 @@ tags:
 - General
 author: Michael Hodnett
 author-img: assets/img/team-photos/mikey.jpg
-date:   2017-08-07
+date: 2017-08-07
 thumbnail: assets/img/blog/17-08-07-students-untapped-market.jpg
-permalink: /blog/:year/:month/:day/:title/
----
+permalink: "/blog/:year/:month/:day/:title/"
 
+---
 #### Away from work, the average person spends 30 days a year doing household tasks.
 
 Like the hairs in your nose, one’s to-do list only gets longer as you move through life. Tasks such as gardening, walking the dog and finding a babysitter become a weekly effort and can get in the way of more important things like spending time with friends.
