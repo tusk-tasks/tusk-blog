@@ -21,7 +21,7 @@ So, what are we throwing away?
 * 83 square kilometres of **wrapping paper** and 125,000 tonnes of **plastic**
 * 1 billion **Christmas cards** (the equivalent of 33 million trees)
 * 6 million **Christmas trees**
-* 54 million platefuls of **food**, including 2 million Turkeys
+* 54 million platefuls of **food**, including 2 million turkeys
 * 13,350 tonnes of **glass bottles** (If this was all recycled it could save 4,200 tonnes of CO2 - the same as taking 1,300 cars off the road)
 * £42 million worth of Christmas **presents**
 
