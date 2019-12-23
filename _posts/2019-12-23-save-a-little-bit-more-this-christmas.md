@@ -5,14 +5,14 @@ tags:
 - General
 author: Michael Hodnett
 author-img: "/assets/img/team photo.png"
-date: 2019-12-23 00:00:00 +0000
+date: 2019-12-23T00:00:00.000+00:00
 thumbnail: "/assets/img/20180714-DSC09765 (1) copy.jpg"
 permalink: "/blog/:year/:month/:day/:title/"
 
 ---
-## Happy Christmas Tuskers.
+### Happy Christmas Tuskers.
 
-### The merry festive period is finally upon us, full of joy, good-tidings and, unfortunately, a lot of **waste**.
+The merry festive period is finally upon us, full of joy, good-tidings and, unfortunately, a lot of **waste**.
 
 In the UK, 30% more waste is generated during the month of December. This equates to about 3 million tonnes, with the majority being sent to landfills, creating more methane and more CO2 (which we don’t like).
 
@@ -28,7 +28,7 @@ So, what are we throwing away?
 Almost all of us wish for a greener, cleaner planet, but how can we put this into practice? Here are our Tusk tips to work towards a greener Christmas this year:
 
 * **Recycle, recycle, recycle -** 70% of our waste (including the Christmas tree) can be recycled so please remember to do so
-* Send **E-cards** and save trees
+* Send **E-cards**
 * **It’s OK to regift!** Use second hand marketplaces like eBay and Depop to rehome unwanted presents
 
 So, we wish you a wonderful, sustainable Christmas and we look forward to seeing you in 2020, the year of tasks!
