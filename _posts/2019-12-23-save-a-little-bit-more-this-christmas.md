@@ -25,7 +25,7 @@ So, what are we throwing away?
 * 13,350 tonnes of **glass bottles** (If this was all recycled it could save 4,200 tonnes of CO2 – the same as taking 1,300 cars off the road)
 * £42 million worth of Christmas **presents**
 
-Almost all of us wish for a greener, cleaner planet, but how can we put this into practice? Here are our Tusk tips to work towards a greener Christmas this year:
+Almost all of us wish for a greener, cleaner planet, but how can we put this into practice? Here are our **Tusk tips** to work towards a greener Christmas this year:
 
 * **Recycle, recycle, recycle -** 70% of our waste (including the Christmas tree) can be recycled so please remember to do so
 * Send **E-cards**
