@@ -10,7 +10,7 @@ thumbnail: "/assets/img/20180714-DSC09765 (1) copy.jpg"
 permalink: "/blog/:year/:month/:day/:title/"
 
 ---
-### Happy Christmas Tuskers.
+### Happy Christmas Tuskers!
 
 The merry festive period is finally upon us, full of joy, good-tidings and, unfortunately, a lot of **waste**.
 
