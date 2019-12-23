@@ -5,7 +5,7 @@ tags:
 - General
 author: Michael Hodnett
 author-img: "/assets/img/team photo.png"
-date: 
+date: 2019-12-23 00:00:00 +0000
 thumbnail: "/assets/img/20180714-DSC09765 (1) copy.jpg"
 permalink: "/blog/:year/:month/:day/:title/"
 
