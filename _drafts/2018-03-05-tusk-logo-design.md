@@ -5,11 +5,11 @@ tags:
 - Design
 author: Ed Stennett
 author-img: assets/img/team-photos/ed.jpg
-date:   2018-03-05 12:30:00 +0000
+date: 2018-03-05T12:30:00.000+00:00
 thumbnail: assets/img/blog/05-03-18-sketch.png
-permalink: /blog/:year/:month/:day/:title/
----
+permalink: "/blog/:year/:month/:day/:title/"
 
+---
 #### As you will will probably know by now (the clue is in the title), we have rebranded and are now called tusk. Why would you do such a thing after only one month of being uWork, you might ask… and that is a good question. 
 
 We never planned to have to re-brand so soon, but thanks to the charming legal team of a multi-million dollar company from across the pond, our hand was forced. BUT, with much credit owed to our wonderful designer, Steady Eddy, and some beer fuelled creative sessions – we came up with tusk and significantly, our icon: Nelly the narwhal.
