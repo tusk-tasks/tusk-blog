@@ -5,11 +5,11 @@ tags:
 - General
 author: James Falconer
 author-img: assets/img/team-photos/james.jpg
-date:   2017-09-10
+date: 2017-09-10
 thumbnail: assets/img/blog/17-09-10-mad-things-student-money.jpg
-permalink: /blog/:year/:month/:day/:title/
----
+permalink: "/blog/:year/:month/:day/:title/"
 
+---
 #### We wish we had waited for uWork
 
 It’s hard to hold down a regular job as a student. You’ve got to find a fairly flexible employer to accommodate for the demands of university life (academic and of course, social).  
