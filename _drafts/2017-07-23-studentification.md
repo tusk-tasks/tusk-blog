@@ -5,11 +5,11 @@ tags:
 - General
 author: James Falconer
 author-img: assets/img/team-photos/james.jpg
-date:   2017-07-23
+date: 2017-07-23
 thumbnail: assets/img/blog/17-07-23-studentification.jpg
-permalink: /blog/:year/:month/:day/:title/
----
+permalink: "/blog/:year/:month/:day/:title/"
 
+---
 #### The sharing economy will bridge the divide between students and the local community.
 
 Studentification is the process of social, environmental and economic change caused by large numbers of students moving to a particular area. This phenomenon disrupts the day to day lives of local residents and can lead to divisions between these two demographics.
