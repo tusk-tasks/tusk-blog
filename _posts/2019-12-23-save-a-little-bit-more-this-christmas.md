@@ -22,13 +22,13 @@ So, what are we throwing away?
 * 1 billion **Christmas cards** (the equivalent of 33 million trees)
 * 6 million **Christmas trees**
 * 54 million platefuls of **food**, including 2 million Turkeys
-* 13,350 tonnes of **glass bottles** (If this was all recycled it could save 4,200 tonnes of CO2 – the same as taking 1,300 cars off the road)
+* 13,350 tonnes of **glass bottles** (If this was all recycled it could save 4,200 tonnes of CO2 - the same as taking 1,300 cars off the road)
 * £42 million worth of Christmas **presents**
 
 Almost all of us wish for a greener, cleaner planet, but how can we put this into practice? Here are our **Tusk tips** to work towards a greener Christmas this year:
 
-* **Recycle, recycle, recycle -** 70% of our waste (including the Christmas tree) can be recycled so please remember to do so
+* **Recycle, recycle, recycle** - 70% of our waste (including the Christmas tree) can be recycled so please remember to do so
 * Send **E-cards**
-* **It’s OK to regift!** Use second hand marketplaces like eBay and Depop to rehome unwanted presents
+* **It’s OK to regift** - Use second hand marketplaces like eBay and Depop to rehome unwanted presents or to buy them in the first place
 
 So, we wish you a wonderful, sustainable Christmas and we look forward to seeing you in 2020, the year of tasks!
